@@ -1,0 +1,12 @@
+/***********************************************/
+    Português estruturado
+/***********************************************/
+
+programa NOME_SEXO
+var
+    NOME: cadeia
+    SEXO: caractere
+inicio
+    leia NOME, SEXO
+    escreva NOME, SEXO
+fim
