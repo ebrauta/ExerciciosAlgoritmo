@@ -1,0 +1,23 @@
+/***********************************************/
+    Português estruturado
+/***********************************************/
+
+programa TRIÂNGULO
+var
+    A, B, C: real
+inicio
+    leia A, B, C
+    se (A < B + C) .e. (B < A + C) .e. (C < A + B) então
+        se (A = B) .e. (B = C) então
+            escreva "Triângulo Equilátero"
+        senão
+            se (A = B) .ou. (A = C) .ou. (C = B) então
+                escreva "Triângulo Isósceles"
+            senão
+                escreva "Triângulo Escaleno"
+            fim_se
+        fim_se
+    senão
+        escreva "As medidas não formam um Triângulo"
+    fim_se
+fim

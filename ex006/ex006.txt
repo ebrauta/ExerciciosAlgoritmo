@@ -1,0 +1,18 @@
+/***********************************************/
+    Português estruturado
+/***********************************************/
+
+programa MAIOR_PESO
+var
+    A, B, C, X: inteiro
+inicio
+    leia A, B, C
+    X <- A
+    se (X < B) então
+        X <- B
+    fim_se
+    se (X < C) então
+        X <- C
+    fim_se
+    escreva X
+fim
